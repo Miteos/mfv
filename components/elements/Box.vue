@@ -31,9 +31,12 @@ export default {
 .card img {
   background-size: contain;
 }
-.card:hover.image-full:before {
-  background-color: transparent;
+.card:hover.image-full {
   transition: 0.2s ease-in-out;
+  box-shadow: 0 1px 10px 0 #bd0091 !important;
+}
+.card.image-full:before {
+  background-color: transparent;
 }
 .card.card-title {
   color: transparent;
