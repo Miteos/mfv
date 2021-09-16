@@ -14,7 +14,7 @@
     >
       <div class="flex items-center">
         <img class="w-12 h-12" src="/svgs/tiles.svg" alt="tiles" />
-        <p>Metid Fidan Versiegelung</p>
+        <p>Metin Fidan Versiegelungen</p>
       </div>
 
       <!--      <div class="md:place-self-center md:justify-self-end">-->
