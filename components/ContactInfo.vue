@@ -18,7 +18,7 @@
             <h3>Tel:</h3>
             <div class="divider w-1/2"></div>
             <a
-              href="tel:0157 356 645 999"
+              href="tel:+49157 356 645 999"
               class="btn w-max my-5 bg-secondary hover:bg-secondary-focus"
               >0157 356 645 99</a
             >

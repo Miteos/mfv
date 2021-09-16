@@ -1,5 +1,5 @@
 <template>
-  <div class="card shadow-xl image-full">
+  <div class="card shadow-xl mx-4 lg:mx-0 image-full">
     <figure>
       <img :src="img" alt="image" />
     </figure>
