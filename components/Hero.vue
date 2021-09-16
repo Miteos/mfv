@@ -1,7 +1,7 @@
 <template>
   <div
     class="hero min-h-screen bg-cover overflow-x-hidden"
-    style="background-image: url('/images/hero.jpg')"
+    style="background-image: url('/images/hero-4.jpg')"
   >
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="text-center hero-content text-neutral-content">
@@ -27,5 +27,8 @@
 <style>
 .hero-content {
   max-height: 200rem !important;
+}
+.hero {
+  background-position: bottom;
 }
 </style>
