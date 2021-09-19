@@ -6,10 +6,8 @@
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-xl">
-        <h1 class="mb-20 lg:text-5xl text-3xl font-bold">
-          Metin Fidan Versiegelungen
-        </h1>
-        <p class="mb-5 text-3xl">Alles dicht?</p>
+        <h1 class="mb-20 lg:text-5xl text-3xl font-bold">MVF Versiegelung</h1>
+        <p class="mb-5 text-4xl 2xl:font-bold">Alles dicht?</p>
         <p class="mb-5 2xl:text-2xl md:text-lg lg:text-xl">
           Wenn nicht stehe ich Ihnen kurzfristig zur Verfügung!
         </p>
