@@ -36,7 +36,7 @@ export default {
 }
 .card:hover.image-full {
   transition: 0.2s ease-in-out;
-  box-shadow: 0 1px 10px 0 #bd0091 !important;
+  box-shadow: 0 1px 10px 0 red !important;
 }
 .card.image-full:before {
   background-color: transparent;
