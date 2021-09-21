@@ -28,6 +28,7 @@
 }
 .hero {
   background-position: bottom;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 640px) {
   .hero {
