@@ -42,6 +42,10 @@ export default {
           text: 'Silikonfugen im Sanitär- & Innenbereich',
           img: '/images/4.jpeg',
         },
+        {
+          text: 'Farbpaletten',
+          img: '/images/10.jpeg',
+        },
       ],
     }
   },

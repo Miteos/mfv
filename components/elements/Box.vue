@@ -20,7 +20,7 @@ export default {
 
 <style>
 .card {
-  max-height: 400px;
+  max-height: 432px;
   transition: 0.3s ease-out;
 }
 @media screen and (max-width: 640px) {
@@ -29,7 +29,10 @@ export default {
   }
 }
 .card img {
-  background-size: contain;
+  background-size: cover;
+}
+.card.image-full > figure img {
+  object-fit: contain;
 }
 .card:hover.image-full {
   transition: 0.2s ease-in-out;
@@ -38,7 +41,11 @@ export default {
 .card.image-full:before {
   background-color: transparent;
 }
-.card.card-title {
-  color: transparent;
+.card-title {
+  color: white;
+}
+.card .card-title:last-child {
+  color: white;
+  text-shadow: 0 0 10px #000;
 }
 </style>

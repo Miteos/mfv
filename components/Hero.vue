@@ -1,9 +1,9 @@
 <template>
   <div
     class="hero min-h-screen bg-cover overflow-x-hidden"
-    style="background-image: url('/images/hero-4.jpg')"
+    style="background-image: url('/images/hero-5.jpg')"
   >
-    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-overlay bg-opacity-30"></div>
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-xl">
         <h1 class="mb-20 lg:text-5xl text-3xl font-bold">MFV Versiegelung</h1>
