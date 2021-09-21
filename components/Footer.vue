@@ -13,7 +13,7 @@
       "
     >
       <div class="flex items-center">
-        <img class="w-12 h-12" src="/svgs/tiles.svg" alt="tiles" />
+        <!--        <img class="w-12 h-12" src="/svgs/tiles.svg" alt="tiles" />-->
         <p>MFV Versiegelung</p>
       </div>
     </footer>

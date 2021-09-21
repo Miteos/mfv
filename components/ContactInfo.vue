@@ -17,9 +17,7 @@
           <div class="flex items-center flex-col prose-lg">
             <h3>Tel:</h3>
             <div class="divider w-1/2"></div>
-            <a
-              href="tel:+49157 356 645 999"
-              class="btn w-max my-5 bg-secondary hover:bg-secondary-focus"
+            <a href="tel:+49157 356 645 999" class="btn red-button w-max my-5"
               >0157 356 645 99</a
             >
           </div>
@@ -28,14 +26,7 @@
             <div class="divider w-1/2"></div>
             <a
               href="mailto:mf-versiegelung@web.de"
-              class="
-                btn
-                bg-secondary
-                hover:bg-secondary-focus
-                w-max
-                my-5
-                lowercase
-              "
+              class="btn red-button w-max my-5 lowercase"
               >MF-VERSIEGELUNG@WEB.DE</a
             >
           </div>
@@ -53,3 +44,14 @@ export default {
   },
 }
 </script>
+
+<style>
+.red-button {
+  background-color: red;
+  transition: 0.2s ease-out;
+}
+.red-button:hover {
+  background-color: crimson;
+  transition: 0.2s ease-in;
+}
+</style>

@@ -6,14 +6,14 @@
     <div class="hero-overlay bg-opacity-30"></div>
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-xl">
-        <h1 class="mb-20 lg:text-5xl text-3xl font-bold">MFV Versiegelung</h1>
-        <p class="mb-5 text-4xl 2xl:font-bold">Alles dicht?</p>
-        <p class="mb-5 2xl:text-2xl md:text-lg lg:text-xl">
+        <AnimatedTitle />
+        <h1 class="mt-0 pb-10 lg:mt-40 mb-20 lg:text-5xl text-3xl font-bold">
+          MFV Versiegelung
+        </h1>
+        <p class="mb-5 2xl:text-3xl md:text-lg lg:text-xl">
           Wenn nicht stehe ich Ihnen kurzfristig zur Verfügung!
         </p>
-        <a
-          href="tel:+49157 356 645 999"
-          class="btn w-max my-5 bg-secondary hover:bg-secondary-focus"
+        <a href="tel:+49157 356 645 999" class="btn w-max my-5 red-button"
           >0157 356 645 99</a
         >
       </div>
@@ -21,10 +21,18 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import AnimatedTitle from '@/components/elements/AnimatedTitle'
+export default {
+  components: {
+    AnimatedTitle,
+  },
+}
+</script>
 <style>
 .hero-content {
   max-height: 200rem !important;
+  min-height: 50rem;
 }
 .hero {
   /*background-position: bottom;*/
@@ -32,8 +40,16 @@
 }
 @media screen and (max-width: 640px) {
   .hero {
-    background-position: 40%;
+    background-position: 43% 55%;
     background-repeat: no-repeat;
   }
+}
+.red-button {
+  background-color: red;
+  transition: 0.2s ease-out;
+}
+.red-button:hover {
+  background-color: crimson;
+  transition: 0.2s ease-in;
 }
 </style>
