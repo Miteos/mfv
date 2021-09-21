@@ -32,6 +32,7 @@
 @media screen and (max-width: 640px) {
   .hero {
     background-position: 60%;
+    background-repeat: no-repeat;
   }
 }
 </style>
