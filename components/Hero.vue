@@ -7,7 +7,7 @@
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-xl">
         <AnimatedTitle />
-        <h1 class="mt-0 pb-10 lg:mt-40 mb-20 lg:text-5xl text-3xl font-bold">
+        <h1 class="mt-10 pb-40 lg:mt-40 lg:text-5xl text-3xl font-bold">
           MFV Versiegelung
         </h1>
         <p class="mb-5 2xl:text-3xl md:text-lg lg:text-xl">
@@ -42,6 +42,11 @@ export default {
   .hero {
     background-position: 43% 55%;
     background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hero-content {
+    min-height: 100vh;
   }
 }
 .red-button {
