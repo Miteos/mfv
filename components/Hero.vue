@@ -1,7 +1,7 @@
 <template>
   <div
     class="hero min-h-screen bg-cover overflow-x-hidden"
-    style="background-image: url('/images/hero-5.jpg')"
+    style="background-image: url('/images/image.jpg')"
   >
     <div class="hero-overlay bg-opacity-30"></div>
     <div class="text-center hero-content text-neutral-content">
@@ -27,12 +27,12 @@
   max-height: 200rem !important;
 }
 .hero {
-  background-position: bottom;
+  /*background-position: bottom;*/
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 640px) {
   .hero {
-    background-position: 60%;
+    background-position: 40%;
     background-repeat: no-repeat;
   }
 }
