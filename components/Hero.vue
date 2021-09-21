@@ -1,7 +1,7 @@
 <template>
   <div
     class="hero min-h-screen bg-cover overflow-x-hidden"
-    style="background-image: url('/static/images/hero-5.jpg')"
+    style="background-image: url('/images/hero-5.jpg')"
   >
     <div class="hero-overlay bg-opacity-30"></div>
     <div class="text-center hero-content text-neutral-content">
