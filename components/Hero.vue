@@ -29,4 +29,9 @@
 .hero {
   background-position: bottom;
 }
+@media screen and (max-width: 640px) {
+  .hero {
+    background-position: 60%;
+  }
+}
 </style>
