@@ -14,7 +14,7 @@ export default {
         name: 'description',
         content:
           'ALLES DICHT!\n' +
-          'MFV Versiegelung\n' +
+          'MFV Versiegelung - \n' +
           'Wenn nicht stehe ich Ihnen kurzfristig zur Verfügung!',
       },
       { name: 'format-detection', content: 'telephone=no' },
