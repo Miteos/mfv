@@ -1,9 +1,10 @@
 <template>
   <div>
-    <Hero />
-    <Boxes />
-    <ContactInfo />
-    <Footer />
+    <Scammed />
+    <!--    <Hero />-->
+    <!--    <Boxes />-->
+    <!--    <ContactInfo />-->
+    <!--    <Footer />-->
   </div>
 </template>
 
